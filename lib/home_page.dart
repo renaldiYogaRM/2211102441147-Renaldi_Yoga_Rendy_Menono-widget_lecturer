@@ -20,6 +20,18 @@ class HomePage extends StatelessWidget {
                 color: Colors.indigo,
               ),
             ),
+            Container(
+              padding: EdgeInsets.all(10),
+              margin: EdgeInsets.symmetric(vertical: 10),
+              decoration: BoxDecoration(
+                color: Colors.cyan,
+                borderRadius: BorderRadius.circular(10),
+              ),
+              child: Text(
+                'Ini Adalah Countainer dengan padding, margin dan decoration',
+                style: TextStyle(color: Colors.indigo, fontSize: 20),
+              ),
+            ),
           ],
         ),
       ),
