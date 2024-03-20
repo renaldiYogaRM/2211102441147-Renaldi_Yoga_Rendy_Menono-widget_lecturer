@@ -46,6 +46,16 @@ class HomePage extends StatelessWidget {
               width: 200.0,
               height: 200.0,
             ),
+            const Icon(
+              Icons.favorite,
+              size: 50.0,
+              color: Colors.blue,
+            ),
+            const Icon(
+              Icons.abc,
+              size: 50.0,
+              color: Colors.blue,
+            ),
           ],
         ),
       ),
