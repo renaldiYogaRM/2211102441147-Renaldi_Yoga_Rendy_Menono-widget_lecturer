@@ -89,6 +89,7 @@ class HomePage extends StatelessWidget {
                 child: const Text('Ini adalah Padding'),
               ),
             ),
+            SizedBox(height: 40),
             Center(
               child: Container(
                 width: 200.0,
@@ -96,6 +97,11 @@ class HomePage extends StatelessWidget {
                 color: Colors.lightGreen,
                 child: const Text('Memusatkan widget anak di dalam parent'),
               ),
+            ),
+            SizedBox(height: 40),
+            AspectRatio(
+              aspectRatio: 16 / 9,
+              child: Container(color: Colors.indigo),
             ),
           ],
         ),
