@@ -56,6 +56,13 @@ class HomePage extends StatelessWidget {
               size: 50.0,
               color: Colors.blue,
             ),
+            ElevatedButton(
+              onPressed: () {},
+              child: const Text(
+                'Ini ElevatedButton/ Ini Adalah Text Button',
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
+            ),
           ],
         ),
       ),
