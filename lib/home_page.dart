@@ -32,6 +32,14 @@ class HomePage extends StatelessWidget {
                 style: TextStyle(color: Colors.indigo, fontSize: 20),
               ),
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Container(width: 100.0, height: 100.0, color: Colors.black),
+                Container(width: 100.0, height: 100.0, color: Colors.black26),
+                Container(width: 100.0, height: 100.0, color: Colors.black38),
+              ],
+            ),
           ],
         ),
       ),
