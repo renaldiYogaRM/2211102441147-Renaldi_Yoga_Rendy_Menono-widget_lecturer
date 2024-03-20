@@ -20,6 +20,7 @@ class HomePage extends StatelessWidget {
                 color: Colors.indigo,
               ),
             ),
+            SizedBox(height: 40),
             Container(
               padding: EdgeInsets.all(10),
               margin: EdgeInsets.symmetric(vertical: 10),
@@ -32,6 +33,7 @@ class HomePage extends StatelessWidget {
                 style: TextStyle(color: Colors.indigo, fontSize: 20),
               ),
             ),
+            SizedBox(height: 40),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -46,6 +48,7 @@ class HomePage extends StatelessWidget {
               width: 200.0,
               height: 200.0,
             ),
+            SizedBox(height: 40),
             const Icon(
               Icons.favorite,
               size: 50.0,
@@ -56,12 +59,28 @@ class HomePage extends StatelessWidget {
               size: 50.0,
               color: Colors.blue,
             ),
+            SizedBox(height: 40),
             ElevatedButton(
               onPressed: () {},
               child: const Text(
                 'Ini ElevatedButton/ Ini Adalah Text Button',
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
+            ),
+            SizedBox(height: 40),
+            Stack(
+              children: [
+                Container(
+                  width: 200.0,
+                  height: 200.0,
+                  color: Colors.black,
+                ),
+                Container(
+                  width: 150.0,
+                  height: 150.0,
+                  color: Colors.grey,
+                ),
+              ],
             ),
           ],
         ),
