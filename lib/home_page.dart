@@ -89,6 +89,14 @@ class HomePage extends StatelessWidget {
                 child: const Text('Ini adalah Padding'),
               ),
             ),
+            Center(
+              child: Container(
+                width: 200.0,
+                height: 100.0,
+                color: Colors.lightGreen,
+                child: const Text('Memusatkan widget anak di dalam parent'),
+              ),
+            ),
           ],
         ),
       ),
