@@ -40,6 +40,12 @@ class HomePage extends StatelessWidget {
                 Container(width: 100.0, height: 100.0, color: Colors.black38),
               ],
             ),
+            SizedBox(height: 20),
+            Image.network(
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSufu8OAhx1lcLpMzMJwqKoRb576EqaTXTmog&s',
+              width: 200.0,
+              height: 200.0,
+            ),
           ],
         ),
       ),
