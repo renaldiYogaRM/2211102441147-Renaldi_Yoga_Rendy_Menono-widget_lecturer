@@ -103,6 +103,18 @@ class HomePage extends StatelessWidget {
               aspectRatio: 16 / 9,
               child: Container(color: Colors.indigo),
             ),
+            SizedBox(height: 40),
+            SizedBox(
+              height: 150.0,
+              child: ListView(
+                scrollDirection: Axis.horizontal,
+                children: [
+                  Container(width: 150.0, color: Colors.tealAccent),
+                  Container(width: 150.0, color: Colors.green),
+                  Container(width: 150.0, color: Colors.lightGreen),
+                ],
+              ),
+            ),
           ],
         ),
       ),
