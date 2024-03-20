@@ -11,7 +11,16 @@ class HomePage extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: [],
+          children: [
+            const Text(
+              'Menampilkan Teks dengan berbagai gaya',
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+                color: Colors.indigo,
+              ),
+            ),
+          ],
         ),
       ),
     );
